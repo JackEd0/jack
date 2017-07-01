@@ -23,11 +23,20 @@ if (isset($subbar)) {
                 <li class="<?php echo $navbar['Contact']; ?>"><a href="/contact"><?php echo _l('contact') ?></a></li>
                 <li class="dropdown lang-dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                        <img src="/img/flags/<?php echo $locale_lang; ?>.gif" alt="<?php echo $locale_lang; ?>" class="img-thumbnail icon-small"> <span class="caret"></span>
+                        <img src="/img/flags/<?php echo $locale_lang; ?>.gif" alt="<?php echo $locale_lang; ?>" class="img-thumbnail icon-small" height="100" width="100"> 
+                        <span class="caret"></span>
                     </a>
                     <ul class="dropdown-menu" role="menu">
-        			    <li><a href="#" data-event="set_locale" data-value="fr"><img src="/img/flags/fr.gif" alt="fr" class="img-thumbnail icon-small"></a></li>
-        			    <li><a href="#" data-event="set_locale" data-value="en"><img src="/img/flags/en.gif" alt="en" class="img-thumbnail icon-small"></a></li>
+        			    <li>
+                            <a href="#" data-event="set_locale" data-value="fr">
+                                <img src="/img/flags/fr.gif" alt="fr" class="img-thumbnail icon-small" height="100" width="100">
+                            </a>
+                        </li>
+        			    <li>
+                            <a href="#" data-event="set_locale" data-value="en">
+                                <img src="/img/flags/en.gif" alt="en" class="img-thumbnail icon-small" height="100" width="100">
+                            </a>
+                        </li>
         	        </ul>
                 </li>
             </ul>
