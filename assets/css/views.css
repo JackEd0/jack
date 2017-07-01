@@ -1,0 +1,23 @@
+.custom_img {
+  margin-top: 20px;
+  margin-left: -20px;
+}
+.custom_img img {
+  margin: 10px 20px;
+}
+[class*="notice-"] {
+  border-left: 6px solid #00a0d2;
+  padding: 8px 12px;
+  background-color: #f7fcfe;
+  font-size: 20px;
+  margin-top: -65px;
+  margin-left: 15px;
+}
+.notice-success {
+  border-left: 6px solid #00a0d2;
+  background-color: #f7fcfe;
+}
+#contact_form label,
+#contact_form button {
+  text-transform: capitalize;
+}

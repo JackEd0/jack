@@ -1,3 +1,13 @@
+# disable directory browsing
+Options -Indexes
+# prevent folder listing
+IndexIgnore *
+
+# serve custom error pages
+ErrorDocument 403 /views/errors/403.php
+ErrorDocument 404 /views/errors/404.php
+ErrorDocument 503 /views/errors/503.php
+
 RewriteEngine on
 RewriteRule ^index/?$ index.php [L]
 RewriteRule ^home/?$ index.php [L]

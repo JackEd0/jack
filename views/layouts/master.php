@@ -1,5 +1,11 @@
+<?php
+/**
+ * Created by jack.
+ * Date: 2017-06-30
+ */
+?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?php echo $locale_lang ?>">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,9 +20,9 @@
     <link href="/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="/css/style.css" rel="stylesheet">
     <link href="/css/font-awesome.min.css" rel="stylesheet">
-    <link href="/css/creative_hover_effects.css" rel="stylesheet">
+    <link href="/css/layouts.css" rel="stylesheet">
+    <link href="/css/views.css" rel="stylesheet">
     <?php echo isset($section_styles) ? $section_styles : ''; ?>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -46,6 +52,7 @@
 
     <script src="/js/jquery-3.1.1.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/scripts.js"></script>
     <?php echo isset($section_scripts) ? $section_scripts : ''; ?>
 </body>
 </html>
