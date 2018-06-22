@@ -28,7 +28,7 @@ ob_start();
         <a href="https://www.usherbrooke.ca/">
             <img src="/img/udes.png" title="Universite de Sherbrooke">
         </a>
-        <a href="http://www.ploggsolutions.com/"><img src="/img/plogg.png" title="Plogg Media"></a>
+        <a href="https://www.plogg.ca/"><img src="/img/plogg.png" title="Plogg Media"></a>
     </div>
 </div>
 
