@@ -21,3 +21,14 @@
 #contact_form button {
   text-transform: capitalize;
 }
+.skill-wrapper .skill {
+  cursor: default;
+}
+.skill.btn-theme:hover,
+.skill.btn-theme:focus,
+.skill.btn-theme:active,
+.skill.btn-theme.active,
+.open .skill.dropdown-toggle.btn-theme {
+  background-color: #384452;
+  border-color: #384452;
+}

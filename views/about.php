@@ -32,13 +32,13 @@ ob_start();
     </div>
 </div>
 
-<div class="mt col-md-8 col-md-offset-2">
+<div class="mt col-md-8 col-md-offset-2 skill-wrapper">
     <h4 class="text-capitalize"><?php echo _l('my skills') ?></h4>
     <div class="hline"></div>
     <p><?php echo _l('Most of my work are in') . ' ' . $user['main_language'] ?>.</p>
     <p>
         <?php foreach ($user['main_skills'] as $skill): ?>
-            <a class="btn btn-theme" href="#" role="button"><?php echo $skill ?></a>
+            <div class="skill btn btn-theme"><?php echo $skill ?></div>
         <?php endforeach; ?>
     </p>
     <p class="mt-30-px"><?php echo _l('I also know about') ?>.</p>
@@ -47,7 +47,7 @@ ob_start();
     for ($i=0, $m = count($user['skills']); $i < $m; $i++) {
         echo "<p>";
         foreach ($user['skills'][$i] as $skill) {
-            echo '<a class="btn btn-theme" href="#" role="button">' . $skill . '</a>';
+            echo '<div class="skill btn btn-theme">' . $skill . '</div>';
         }
         echo "</p>";
     }
