@@ -25,11 +25,11 @@ ob_start();
         </a>
     </p>
     <div class="custom_img mb-30-px">
-        <a href="https://www.usherbrooke.ca/">
+        <a href="https://www.usherbrooke.ca/" target="_blank">
             <img src="/img/udes.jpg" title="Universite de Sherbrooke">
         </a>
-        <a href="https://https://oneprovider.com/"><img src="/img/oneprovider.png" title="Oneprovider"></a>
-        <a href="https://www.plogg.ca/"><img src="/img/plogg.jpg" title="Plogg Media"></a>
+        <a href="https://oneprovider.com/" target="_blank"><img src="/img/oneprovider.png" title="Oneprovider"></a>
+        <a href="https://www.plogg.ca/" target="_blank"><img src="/img/plogg.jpg" title="Plogg Media"></a>
     </div>
 </div>
 
