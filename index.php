@@ -1,8 +1,9 @@
 <?php
+
 include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/settings.php';
 $subbar = 'Home';
 $page_title = _l('Home');
-$blue_wrap = '<h3 class="tt-uppercase-fl tt-none text-center">' . _l('Welcome to my portfolio, my name is Jack') . '.</h3>';
+$blue_wrap = '<h3 class="tt-uppercase-fl tt-none text-center">' . _l('Welcome to my portfolio, my name is ') . $user['name'] . '.</h3>';
 $section_scripts = '<script src="/js/about.js"></script>';
 ob_start();
 ?>
@@ -40,4 +41,4 @@ ob_start();
 </div>
 <?php
 $section_content = ob_get_clean();
-include_once $_SERVER['DOCUMENT_ROOT'] . '/views/layouts/master.php';
+include_once DOCUMENT_ROOT . '/views/layouts/master.php';

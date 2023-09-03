@@ -6,7 +6,7 @@ return array(
     'contact' => 'contact',
     'PREVIEW' => 'APERÇU',
     'I create awesome designs to stand out your site or product. Check some of my latest works' => 'Je crée de magnifiques designs pour faire ressortir votre site ou votre produit. Jeter un coup d\'œil à mes derniers travaux',
-    'Welcome to my portfolio, my name is Jack' => 'Bienvenue sur mon portfolio, mon nom est Jack',
+    'Welcome to my portfolio, my name is ' => 'Bienvenue sur mon portfolio, mon nom est ',
     'resume' => 'CV',
     'navigation' => 'navigation',
     'social links' => 'liens sociaux',
