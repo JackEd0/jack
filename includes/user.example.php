@@ -23,32 +23,46 @@ return array(
         [
             'title' => 'Realisation 1',
             'preview' => 'one-page-crud.jpg',
-            'link' => 'https://www.example1.center',
+            'link' => 'https://www.example.com/',
             'description' => 'Single Page to CRUD entities'
         ],
         [
             'title' => 'Realisation 2',
             'preview' => 'bd.jpg',
-            'link' => 'https://www.example2.com',
+            'link' => 'https://www.example.com/',
             'description' => 'Site de vente de documents'
         ],
         [
             'title' => 'PORTFOLIO',
             'preview' => 'portfolio.jpg',
-            'link' => 'https://www.example1.center',
+            'link' => 'https://www.example.com/',
             'description' => 'Site servant de portfolio'
         ],
         [
             'title' => 'Waspnode',
             'preview' => 'waspnode.jpg',
-            'link' => 'https://example1.htm',
+            'link' => 'https://www.example.com/',
             'description' => 'Site de presentation'
         ],
         [
             'title' => 'Nemaxe',
             'preview' => 'nemaxe.jpg',
-            'link' => 'https://www.example1.center/',
+            'link' => 'https://www.example.com/',
             'description' => 'Site de creation d\'épreuves'
+        ],
+    ],
+    'job_projects' => [
+        [
+            'title' => 'Aqtis 514 iatse',
+            'preview' => 'aqtis514iatse.com.jpeg',
+            'link' => 'https://www.example.com/',
+            'description' => 'JOB: Full stack developer'
+        ],
+        [
+            'title' => 'Oneprovider',
+            'preview' => 'oneprovider.com.jpeg',
+            'link' => 'https://www.example.com/',
+            'description' => 'JOB: Full stack developer'
         ],
     ],
     'linkedin' => 'https://ca.linkedin.com/in/john-smith-3816582c151',
