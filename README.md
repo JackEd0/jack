@@ -15,6 +15,8 @@ Portfolio is web interface that allow anyone to generate a portfolio template.
 - Add your resume to the folder 'assets/pdf'
 - Create a file named 'user.php' and place it in the 'includes' folder
 - In 'user.php', rename the 'resume_file' with the name of your resume file. See 'user.example.php'
+- If there are user.zip and 'resume.zip' files, extract them. If they are encrypted, the password is can be found along side 'hostinger' credentials.
+    To zip, use 7zip -> Add to archive -> zip -> password: 'your_password' -> OK
 
 ## Features
 
