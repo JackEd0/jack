@@ -14,7 +14,9 @@ $section_scripts = '<script src="/js/about.js"></script>';
 ob_start();
 ?>
 <div class="col-md-8">
-    <div class="alert alert-warning">Sorry, my mail server is not available at the moment! Contact me at <strong>jacques.mi@outlook.com</strong></div>
+    <div class="alert alert-warning">
+        Sorry, my mail server is not available at the moment! Contact me at <strong><?php echo $user['email'] ?></strong> <a href="mailto:<?php echo $user['email'] ?>"><i class="fa fa-envelope"></i></a>
+    </div>
 </div>
 <div class="col-lg-8">
     <h4><?php echo _l('Let\'s Get In Touch') ?></h4>
